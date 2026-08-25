@@ -9,10 +9,10 @@ print(type(idade))'''
 '''nome = input("Digite seu nome: ")
 print("Bem-vindo,", nome)'''
 
-cidade = input("Digite sua cidade: ")
+'''cidade = input("Digite sua cidade: ")
 print(f"Cidade informada: {cidade}")
 
-print(type(cidade))
+print(type(cidade))'''
 
 
 
