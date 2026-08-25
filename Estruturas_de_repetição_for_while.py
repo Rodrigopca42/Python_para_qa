@@ -43,7 +43,7 @@ for numero in range(6):
         continue
     print(numero)
 '''
-
+'''
 status_codes = [200,200,500,200]
 for status in status_codes:
     if status == 500:
@@ -51,7 +51,7 @@ for status in status_codes:
         break
     else:
         print(f'status {status}')
-
+'''
 
 '''
 status_codes = [200,200,500,200]
@@ -60,3 +60,30 @@ for status in status_codes:
         continue
 print("Status diferente de 200:",status)
 '''
+'''
+x: int
+soma: int
+
+soma = 0
+x = int(input('Digite o primeiro número: '))
+
+while x != 0:
+    soma = soma + x
+    x = int(input('Digite outro número: '))
+
+print('Soma = ', soma)
+'''
+
+x: int 
+soma: int
+
+N = int(input('quantos números serão digitados? '))
+
+soma = 0
+for i in range(0, N):
+    x = int(input('digite um número: '))
+    soma = soma + x
+
+print('Soma = ', soma)
+
+
