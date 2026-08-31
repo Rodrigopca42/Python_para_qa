@@ -30,8 +30,26 @@ print(linha_log.endswith('usuário'))
 '''
 
 #Metodods de transformação
-
+'''
 email = " usuario@teste.com "
 print(email.strip()) # 'usuario@teste.com'
 print(email.lstrip()) # 'usuario@teste.com '
 print(email.rstrip()) # ' usuario@teste.com'
+'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
